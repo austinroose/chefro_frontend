@@ -1,0 +1,13 @@
+{
+    "title": "Ligipääs kontole",
+    "password.placeholder": "Parool",
+    "email.placeholder": "E-post",
+    "button": "Logi sisse",
+    "rememberMe": "Jäta mind meelde",
+    "or": "Või",
+    "extra.text1": "Pole veel kontot?",
+    "extra.text2": "Liitu",
+    "error.server": "Vabandame, sisselogimisel esines serveripoolne tõrge. Proovige hiljem uuesti.",
+    "email.validation": "Palun sisestage korrektne e-post",
+    "login.error": "Sisestatud parool või e-post oli vale"
+}

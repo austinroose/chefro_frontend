@@ -1,0 +1,19 @@
+{
+    "title": "New account",
+    "button": "Create account",
+    "password.validation": "Password must contain atleast 6 characters",
+    "password.placeholder": "Password",
+    "passwordRepeat.placeholder": "Password again",
+    "passwordRepeat.validation": "Passwords don't match",
+    "email.placeholder": "Email address",
+    "email.validation": "Please enter correct email address",
+    "submit.error": "User with that email address already exists. Please try new email.",
+    "server.error": "Our apologies, there was server error while creating account. Please try again later.",
+    "extra.or": "Or",
+    "extra.text1": "Account already created?",
+    "extra.text2": "Log in",
+
+    "success.text1": "Account created successfully!",
+    "success.text2": "To activate your account, please click on the verification link sent by email"
+
+}

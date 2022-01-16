@@ -1,0 +1,25 @@
+{
+    "landing.title": "Restoran sinu kodus",
+    "landing.mainText1": "Meeldejääv kulinaarne kogemus sinu enda köögis,",
+    "landing.mainText2": "professionaalsete kokkade poolt",
+
+    "landing.subHeading1": "Kõrgeim kvaliteet toodud kodukööki",
+
+    "landing.mainbtn": "Broneeri kohe",
+    "landing.secondbtn": "LEIA KOKK",
+    "landing.loginbtn": "Logi sisse",
+
+    "landing.topic1.title": "Leia sobiv kokk",
+    "landing.topic1.description": "Kasuta filtreid, et leida just oma vajadustele sobiv kokk.",
+
+    "landing.topic2.title": "Sea paika menüü",
+    "landing.topic2.description": "Määra toidud, koostisosad, välimus jne, et see sobituks perfektselt õhtuks või eriürituseks.",
+    
+    "landing.topic3.title": "Naudi!",
+    "landing.topic3.description": "Ei ole midagi paremat kui näha kokka töötamas oma silme all. Meie tipptasemel kokad teenindavad lauda kogu õhtu jooksul ja esitlevad kõike viimse detailini.",
+
+    "signup.button": "Loo konto",
+    "signup.passwordRepeat.validation": "Paroolid ei ühti",
+    "signup.email.validation": "Palun sisestage korrektne emaili aadress",
+    "signup.submit.error": "Antud emaili alt on juba kasutaja loodud. Proovige uut emaili."
+}

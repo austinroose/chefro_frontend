@@ -1,25 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect} from 'react';
+import { useTranslation } from 'react-i18next';
+import {getLocalLang} from './store/actions/session';
+import { BrowserRouter as Router } from 'react-router-dom';
+import styled from 'styled-components';
 import './App.css';
 
-function App() {
+import BaseLayout from './pages/BaseLayout';
+import BaseRouter from './routes';
+
+export const MainApp = styled.div`
+  font-family: 'Poppins', sans-serif;
+`
+
+function App(props: any) {
+
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    const lang = getLocalLang()
+    console.log(lang)
+    i18n.changeLanguage(lang)
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MainApp>
+        <Router>
+          <BaseLayout>
+              <BaseRouter />
+          </BaseLayout>
+        </Router>
+      </MainApp>  
     </div>
+    
+      
   );
 }
 

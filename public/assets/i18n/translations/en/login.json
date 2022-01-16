@@ -1,0 +1,13 @@
+{
+    "title": "Access to account",
+    "password.placeholder": "Password",
+    "email.placeholder": "Email",
+    "button": "Log in",
+    "rememberMe": "Remember me",
+    "or": "Or",
+    "extra.text1": "Don't have account?",
+    "extra.text2": "Create one",
+    "email.validation": "Please enter correct email address",
+    "error.server": "Our apologis, there was server error while logging you in. Please try again later.",
+    "login.error": "Password or email was incorrect"
+}

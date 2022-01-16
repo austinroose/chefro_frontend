@@ -1,0 +1,18 @@
+{
+    "title": "Konto loomine",
+    "button": "Loo konto",
+    "password.validation": "Parool peab olema vähemalt 6 tähemärki",
+    "password.placeholder": "Parool",
+    "passwordRepeat.placeholder": "Parool uuesti",
+    "email.placeholder": "E-post",
+    "passwordRepeat.validation": "Paroolid ei ühti",
+    "email.validation": "Palun sisestage korrektne emaili aadress",
+    "submit.error": "Antud emaili alt on juba kasutaja loodud. Proovige uut emaili.",
+    "server.error": "Vabandame, sisselogimisel esines serveripoolne tõrge. Proovige hiljem uuesti.",
+    "extra.or": "Või",
+    "extra.text1": "Konto olemas?",
+    "extra.text2": "Logi sisse",
+
+    "success.text1": "Konto loodud edukalt!",
+    "success.text2": "Oma konto aktiveerimiseks klikkige palun meilile saadetud lingil"
+}

@@ -1,0 +1,20 @@
+{
+    "title": "Restoran sinu kodus",
+    "mainText1": "Meeldejääv kulinaarne kogemus sinu enda köögis,",
+    "mainText2": "professionaalsete kokkade poolt",
+
+    "subHeading1": "Kõrgeim kvaliteet toodud kodukööki",
+
+    "mainbtn": "Broneeri kohe",
+    "secondbtn": "LEIA KOKK",
+    "loginbtn": "Logi sisse",
+
+    "topic1.title": "Leia sobiv kokk",
+    "topic1.description": "Kasuta filtreid, et leida just oma vajadustele sobiv kokk.",
+
+    "topic2.title": "Sea paika menüü",
+    "topic2.description": "Määra toidud, koostisosad, välimus jne, et see sobituks perfektselt õhtuks või eriürituseks.",
+    
+    "topic3.title": "Naudi!",
+    "topic3.description": "Ei ole midagi paremat kui näha kokka töötamas oma silme all. Meie tipptasemel kokad teenindavad lauda kogu õhtu jooksul ja esitlevad kõike viimse detailini."
+}

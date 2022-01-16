@@ -1,0 +1,23 @@
+{
+    "landing.title": "Restaurant at your home",
+    "landing.mainText1": "Memorable culinary experience",
+    "landing.mainText2": "by professional chefs",
+
+    "landing.subHeading1": "Highest quality brought to homekitchen",
+
+    "landing.mainbtn": "Book now",
+    "landing.secondbtn": "FIND CHEF",
+    "landing.loginbtn": "Log in",
+
+    "landing.topic1.title": "Find suitable chef",
+    "landing.topic1.description": "Use multiple filters to find chef that fits best to your needs.",
+
+    "landing.topic2.title": "Set up menu",
+    "landing.topic2.description": "Customize food, ingredients, portion sizes etc to perfectly fit the night or special event.",
+    
+    "landing.topic3.title": "Enjoy the food!",
+    "landing.topic3.description": "There is nothing better to see chef working in action in front of your own eyes. Every dish is served and presented to you by our top quality chefs.",
+
+    "signup.errortext": "Account with this email already exists. Try new email."
+
+}

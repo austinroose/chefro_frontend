@@ -1,0 +1,32 @@
+.close {
+    -webkit-animation: fadeout 2s;
+    animation: fadeout 2s;
+}
+
+.popup-show {
+    opacity: 1;
+}
+
+.popup-hide {
+    opacity: 0;
+    transition: all 250ms linear;
+}
+
+@keyframes fadeout {
+    0% {opacity: 0.8}
+   40% {opacity: 0.4}
+   80% {opacity: 0.2}
+  100% {
+      opacity: 0;
+      display: none;
+    }
+  }
+@-webkit-keyframes fadeout {
+    0% {opacity: 0.8}
+   40% {opacity: 0.4}
+   70% {opacity: 0.2}
+  100% {
+      opacity: 0;
+      display: none;
+    }
+  }
