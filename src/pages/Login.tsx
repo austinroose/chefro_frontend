@@ -80,7 +80,7 @@ export const Login: React.FC = () => {
             setSuccessfulLogin(false)
             setLoading(false)
             setLoginError(t("error.server"))
-            if (Number(err.response.data.status) === 400) {
+            if (err.response && Number(err.response.data.status) === 400) {
                 setLoginError(t("login.error"))
             }
         }
@@ -108,7 +108,7 @@ export const Login: React.FC = () => {
         console.log('notification show change', e);
         setClosePopup(true);
 
-    
+
     }
 
     return (
@@ -124,7 +124,7 @@ export const Login: React.FC = () => {
                         {t("title")}
                     </div>
                     <div style={{marginBottom:"10px"}}>
-                        <Input 
+                        <Input
                             error={emailError}
                             validationText={t("email.validation")}
                             type="text"
@@ -132,7 +132,7 @@ export const Login: React.FC = () => {
                             onChange={handleEmailChange}
                             placeholder={t("email.placeholder")}/>
                     </div>
-                    <InputWithButton 
+                    <InputWithButton
                         placeholder={t("password.placeholder")}
                         type={showPassword ? "text" : "password"}
                         style="filled"
@@ -167,4 +167,3 @@ export const Login: React.FC = () => {
         </div>
     )
 }
-

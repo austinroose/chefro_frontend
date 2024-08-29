@@ -10,7 +10,7 @@ const theme = {
     font: {
         body: 'Poppins, sans-serif'
 
-        
+
     },
     fontSize: {
         title1: "18px",
@@ -20,8 +20,10 @@ const theme = {
     },
     borderRadius: {
         mainBtn: '50px',
+    },
+    containers: {
+        desktopContainerMaxWidth: '1600px'
     }
-
 }
 
 export default theme;

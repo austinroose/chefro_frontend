@@ -8,6 +8,7 @@ import TopicList from '../components/landing/TopicList';
 import { useTranslation } from 'react-i18next';
 import { useSelector, RootStateOrAny } from 'react-redux';
 import { Redirect } from 'react-router-dom';
+import DesktopHorizontalCenterContainer from '../components/boxes/DesktopHorizontalCenterContainer';
 
 
 
@@ -30,17 +31,18 @@ export const Landing: React.FC = () => {
 
     return (
         <div>
-            <LandingBigImage >  
+            <LandingBigImage >
             </LandingBigImage>
-            <div style={{paddingLeft: "15px", paddingRight: "15px", paddingBottom:"50px"}}>
-                <div style={{textAlign:"center", paddingTop: "110px"}}>
-                    <Typography variant="h1">{t("subHeading1")}</Typography>
+            <DesktopHorizontalCenterContainer>
+                <div style={{paddingLeft: "15px", paddingRight: "15px", paddingBottom:"50px"}}>
+                    <div style={{textAlign:"center", paddingTop: "110px"}}>
+                        <Typography variant="h1">{t("subHeading1")}</Typography>
+                    </div>
+                    <div style={{paddingTop:"25px"}}>
+                        <TopicList />
+                    </div>
                 </div>
-                <div style={{paddingTop:"25px"}}>
-                    <TopicList />
-                </div>
-                
-            </div>
+            </DesktopHorizontalCenterContainer>
             {afterEmailConfirm &&
                 <Redirect to={`/login?token=${accessToken}`}/>
             }

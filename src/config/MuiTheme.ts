@@ -11,7 +11,7 @@ export const muitheme = createMuiTheme({
         secondary: {
             main: grey[50],
         }
-    },
+    }
 });
 
 muitheme.typography.h1 = {
